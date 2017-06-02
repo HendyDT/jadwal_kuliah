@@ -35,14 +35,24 @@ public class TambahJadwal extends AppCompatActivity {
         ton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
+                
+                SQLiteDatabase db = dbHelper.getWritableDatabase();
+                db.execSQL("insert into jadwal(no, nama_makul, ruang, jam, hari, dosen) values('" +
+                        text1.getText().toString() + "','" +
+                        text2.getText().toString() + "','" +
+                        text3.getText().toString() + "','" +
+                        text4.getText().toString() + "','" +
+                        text5.getText().toString() + "','" +
+                        text6.getText().toString() + "')");
+                Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
+                Jadwal.j.RefreshList();
+                finish();
             }
         });
         ton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                
                 finish();
             }
         });
