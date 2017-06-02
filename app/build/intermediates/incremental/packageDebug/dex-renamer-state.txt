@@ -1,0 +1,7 @@
+#Fri May 12 03:17:50 ICT 2017
+base.0=D\:\\Jadwal_Kuliah\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c78b40a9bdbb21626d5827468ea3f187fbc44c60
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Jadwal_Kuliah\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_add0e72729063865c597347edda9f127fb318c88\\classes.dex
+base.1=D\:\\Jadwal_Kuliah\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_add0e72729063865c597347edda9f127fb318c88
+file.0=D\:\\Jadwal_Kuliah\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c78b40a9bdbb21626d5827468ea3f187fbc44c60\\classes.dex

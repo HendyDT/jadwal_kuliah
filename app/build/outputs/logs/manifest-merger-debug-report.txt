@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\de9005c530d9c94f221a5a25c2f45501e7b3e430\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\USER\.android\build-cache\c8d1c87bb34e9b49010fad5f7897c94eca592587\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\USER\.android\build-cache\88675bdb4666df2b92d614f697c10447c60b6cd3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\USER\.android\build-cache\fa774e93136865548c29fa1f8d00f97321dbad2b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\USER\.android\build-cache\5e2d74a45cd2ddfb0a5c5b4bb574979743897539\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\USER\.android\build-cache\21aeb6025e9afc676e39a3c42e23218b6e25aaa4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\9f89d3ed06564402ac603bb173a6c7c86b54ca49\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\4adc21db8a515417e256f07c15832453a77a59e5\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\USER\.android\build-cache\7bc0f62c072b59cc130157276872d0ed8f3f5ab3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\USER\.android\build-cache\2e30638c25f79ce9ddd5d6d781ddb4b0c2430941\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.jadwalkuliah.jadwal_kuliah.Jadwal
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:12:19-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.jadwalkuliah.jadwal_kuliah.SeninActivity
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:19:9-51
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:19:19-48
+activity#com.jadwalkuliah.jadwal_kuliah.SelasaActivity
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:20:9-52
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:20:19-49
+activity#com.jadwalkuliah.jadwal_kuliah.RabuActivity
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:21:9-50
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.jadwalkuliah.jadwal_kuliah.KamisActivity
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.jadwalkuliah.jadwal_kuliah.JumatActivity
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:23:9-51
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:23:19-48
+activity#com.jadwalkuliah.jadwal_kuliah.TambahJadwal
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:24:9-50
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:24:19-47
+activity#com.jadwalkuliah.jadwal_kuliah.EditJadwal
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:25:9-48
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:25:19-45
+activity#com.jadwalkuliah.jadwal_kuliah.LihatJadwal
+ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:26:9-58
+	android:name
+		ADDED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml:26:19-46
+uses-sdk
+INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\de9005c530d9c94f221a5a25c2f45501e7b3e430\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\USER\.android\build-cache\c8d1c87bb34e9b49010fad5f7897c94eca592587\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\USER\.android\build-cache\88675bdb4666df2b92d614f697c10447c60b6cd3\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\USER\.android\build-cache\fa774e93136865548c29fa1f8d00f97321dbad2b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\USER\.android\build-cache\5e2d74a45cd2ddfb0a5c5b4bb574979743897539\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\USER\.android\build-cache\21aeb6025e9afc676e39a3c42e23218b6e25aaa4\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\9f89d3ed06564402ac603bb173a6c7c86b54ca49\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\4adc21db8a515417e256f07c15832453a77a59e5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\USER\.android\build-cache\7bc0f62c072b59cc130157276872d0ed8f3f5ab3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\USER\.android\build-cache\2e30638c25f79ce9ddd5d6d781ddb4b0c2430941\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\de9005c530d9c94f221a5a25c2f45501e7b3e430\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+		INJECTED from D:\jadwalkuliah\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\de9005c530d9c94f221a5a25c2f45501e7b3e430\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\USER\.android\build-cache\c8d1c87bb34e9b49010fad5f7897c94eca592587\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\USER\.android\build-cache\88675bdb4666df2b92d614f697c10447c60b6cd3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\USER\.android\build-cache\fa774e93136865548c29fa1f8d00f97321dbad2b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\USER\.android\build-cache\5e2d74a45cd2ddfb0a5c5b4bb574979743897539\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\USER\.android\build-cache\21aeb6025e9afc676e39a3c42e23218b6e25aaa4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\9f89d3ed06564402ac603bb173a6c7c86b54ca49\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\USER\.android\build-cache\4adc21db8a515417e256f07c15832453a77a59e5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\USER\.android\build-cache\7bc0f62c072b59cc130157276872d0ed8f3f5ab3\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\de9005c530d9c94f221a5a25c2f45501e7b3e430\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\USER\.android\build-cache\de9005c530d9c94f221a5a25c2f45501e7b3e430\output\AndroidManifest.xml:26:9-47

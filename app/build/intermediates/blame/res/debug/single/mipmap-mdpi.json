@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\jadwalkuliah\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\jadwalkuliah\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Jadwal_Kuliah\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\Jadwal_Kuliah\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\jadwalkuliah\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "D:\\jadwalkuliah\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Jadwal_Kuliah\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "D:\\Jadwal_Kuliah\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    }
+]
