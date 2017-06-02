@@ -52,7 +52,27 @@ public class Jadwal extends Activity {
                 int item = position;
                 String itemText = (String) lv.getItemAtPosition(position);
                 Toast.makeText(getBaseContext(), "Jadwal " + itemText, Toast.LENGTH_LONG).show();
-
+                if (itemText.equals("Senin")) {
+                    Intent isenin = getIntent();
+                    isenin = new Intent(Jadwal.this, SeninActivity.class);
+                    startActivity(isenin);
+                } else if (itemText.equals("Selasa")) {
+                    Intent iselasa = getIntent();
+                    iselasa = new Intent(Jadwal.this, SelasaActivity.class);
+                    startActivity(iselasa);
+                } else if (itemText.equals("Rabu")) {
+                    Intent irabu = getIntent();
+                    irabu = new Intent(Jadwal.this, RabuActivity.class);
+                    startActivity(irabu);
+                } else if (itemText.equals("Kamis")) {
+                    Intent ikamis = getIntent();
+                    ikamis = new Intent(Jadwal.this, KamisActivity.class);
+                    startActivity(ikamis);
+                } else if (itemText.equals("Jumat")) {
+                    Intent ijumat = getIntent();
+                    ijumat = new Intent(Jadwal.this, JumatActivity.class);
+                    startActivity(ijumat);
+                }
             }
         });
 
