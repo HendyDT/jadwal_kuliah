@@ -53,7 +53,19 @@ public class EditJadwal extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-
+                SQLiteDatabase db = dbHelper.getWritableDatabase();
+                db.execSQL("update jadwal set nama_makul='"+
+                        text2.getText().toString() +"', ruang='" +
+                        text3.getText().toString() +"', jam='"+
+                        text4.getText().toString() +"', hari='" +
+                        text5.getText().toString() +"', dosen='"+
+                        text6.getText().toString() +"' where no='" +
+                        text1.getText().toString()+"'");
+                Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
+                finish();
+                Intent iselasa = getIntent();
+                iselasa = new Intent(EditJadwal.this, Jadwal.class);
+                startActivity(iselasa);
             }
         });
         ton2.setOnClickListener(new OnClickListener() {
