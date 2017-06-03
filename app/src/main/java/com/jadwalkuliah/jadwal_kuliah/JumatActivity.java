@@ -13,6 +13,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+
+//hello
 public class JumatActivity extends AppCompatActivity {
 
     String[] daftar;
