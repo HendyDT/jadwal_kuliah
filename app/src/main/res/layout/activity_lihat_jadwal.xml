@@ -116,6 +116,14 @@
         android:text="Nomor" />
 
     <Button
-        />
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        style="?android:attr/borderlessButtonStyle"
+        android:drawableLeft="@drawable/ic_arrow"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView6"
+        android:layout_toStartOf="@+id/textView6" />
 
 </RelativeLayout>
