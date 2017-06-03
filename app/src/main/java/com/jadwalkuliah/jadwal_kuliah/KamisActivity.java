@@ -50,7 +50,21 @@ public class KamisActivity extends AppCompatActivity {
                 builder.setItems(dialogitem, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int item) {
                         switch (item) {
-
+                            case 0 :
+                                Intent i = new Intent(getApplicationContext(), LihatJadwal.class);
+                                i.putExtra("nama_makul", selection);
+                                startActivity(i);
+                                break;
+                            case 1:
+                                Intent in = new Intent(getApplicationContext(), EditJadwal.class);
+                                in.putExtra("nama_makul", selection);
+                                startActivity(in);
+                                break;
+                            case 2:
+                                SQLiteDatabase db = dbcenter.getWritableDatabase();
+                                db.execSQL("delete from jadwal where nama_makul = '" + selection + "'");
+                                JadwalKamis();
+                                break;
                         }
                     }
                 });
